@@ -55,7 +55,6 @@ client.on("message", async (message) => {
             }
           )
           .then(function (data) {
-            // Assuming the response is an array, you can loop through it and log each item
             data.data.forEach((item) => {
               console.log(item)
             })
